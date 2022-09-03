@@ -1,0 +1,38 @@
+{
+  "reward": {
+    "method": "pplns",
+    "extraNonce": "your extranonce",
+    "coinbaseAddress": "RLw5bKVDcX5Rsqq3GRLTsvWWYSMVxTJCX1",
+    "vaultAddresses": [
+      {
+        "address": "RLw5bKVDcX5Rsqq3GRLTsvWWYSMVxTJCX1",
+        "percentage": 1
+      }
+    ],
+    "pplns": {
+      "maxShare": 5000
+    }
+  },
+  "pools": [
+    {
+      "initialDifficulty": 0.25,
+      "targetDifficulty": 6,
+      "difficultyUpdateTime": 60
+    }
+  ],
+  "worker": {
+    "warningsUntilBan": 10,
+    "timeout": 300000
+  },
+  "daemons": [
+    {
+      "pollTime": 16,
+      "host": "DAEMON_HOST",
+      "username": "DAEMON_USERNAME",
+      "password": "DAEMON_PASSWORD"
+    }
+  ],
+  "statistics": {
+    "mongodbUrl": "MONGODB_URL"
+  }
+}
